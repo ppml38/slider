@@ -1,0 +1,120 @@
+{
+	"backgroundColor": "#c2c9d1",
+	"style":{
+		"overflow": "auto"
+	},
+	"slides":[
+		{
+			"inAnimation": "fadein",
+			"outAnimation": "fadeout",
+			"showDuration": 5000,
+			"backgroundColor": "white",
+			"segments":[
+				{
+					"html": "<h1>Welcome</h1>",
+					"top": "50%",
+					"left": "50%",
+					"style":{
+						"transform": "translate(-50%,-50%)",
+						"position": "relative",
+						"display": "inline-block"
+					}
+				},
+				{
+					"type":"p",
+					"html":"Next slide will appear in 5 seconds.<br> For other slides, use arrow keys."
+				}
+			]
+			
+		},
+		{
+			"inAnimation": "fadein",
+			"outAnimation": "fadeout",
+			"backgroundColor": "white",
+			"showOutline": true,
+			"segments":[
+				{
+					"type": "img",
+					"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Lady_Liberty_under_a_blue_sky_%28cropped%29.jpg/250px-Lady_Liberty_under_a_blue_sky_%28cropped%29.jpg",
+					"style":{
+						"display":"inline-block",
+						"height": "100%",
+						"width": "50%"
+					}
+				},
+				{
+					"type":"img",
+					"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/250px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg",
+					"style":{
+						"display":"inline-block",
+						"height": "100%",
+						"width": "50%"
+					}
+				}
+			]
+			
+		},
+		{
+			"backgroundColor": "white",
+			"inAnimation":"fadein",
+			"outAnimation":"fadeout",
+			"style":{
+				"height": "fit-content",
+				"max-height": "fit-content",
+				"transform": "translateX(-50%)",
+				"top": "3%"
+			},
+			"segments":[
+				{
+					"type":"p",
+					"html":"Click the slide to reveal some elements here"
+				},
+				{
+					"inAnimation":"fadein",
+					"outAnimation":"fadeout",
+					"revealOnClick": 1,
+					"html": "<ul><li>This is an example of bullet points in slide.</li><li>You can add numbers also</li><li>And, notice how these elements are fading in with smooth animation.</li><li><b>Try clicking again..</b></li></ul>"
+				},
+				{
+					"showAfter": 5000,
+					"showDuration": 5000,
+					"inAnimation":"fadein",
+					"outAnimation":"fadeout",
+					"type":"p",
+					"html": "This text will show up after 5 seconds, and will be gone after another 5 seconds.."
+				},
+				{
+					"inAnimation":"fadein",
+					"outAnimation":"fadeout",
+					"revealOnClick": 2,
+					"type":"img",
+					"url": "https://media.tenor.com/GLZZKZJyJAEAAAAM/dance-dancing-duck.gif"
+				}
+				
+			]
+			
+		},
+		{
+			"backgroundColor": "red",
+			"segments":[
+				{
+					"type":"p",
+					"html":"You can also add youtube videos or your own videos..<br>And notice, the slide with different color now.,"
+				},
+				{
+					"type":"iframe",
+					"url":"https://www.youtube.com/embed/B9LjZgE1ed8",
+					"display": "inline-block",
+					"height": "50%",
+					"width": "50%",
+					"top": "50%",
+					"left": "50%",
+					"style":{
+						"border":"none",
+						"transform":"translate(-50%,-50%)"
+					}
+				}
+			]
+		}
+	]
+}
