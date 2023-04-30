@@ -12,3 +12,41 @@
 .fadeOut{
 	animation: fadeOutAnimation .5s;
 }
+.__slide{
+	position: relative;
+	display: inline-block;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.__segment{
+	display: block;
+	position: relative;
+}
+
+.simpleSlide{
+	background-color: white !important;
+}
+.padding{
+	padding: 1rem;
+}
+
+.title{
+	font-size: 3rem;
+}
+
+.center{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.top{
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}

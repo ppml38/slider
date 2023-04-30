@@ -8,21 +8,15 @@
 			"inAnimation": "fadein",
 			"outAnimation": "fadeout",
 			"showDuration": 5000,
-			"backgroundColor": "white",
+			"class": "simpleSlide padding",
 			"segments":[
 				{
-					"html": "<h1>Welcome</h1>",
-					"top": "50%",
-					"left": "50%",
-					"style":{
-						"transform": "translate(-50%,-50%)",
-						"position": "relative",
-						"display": "inline-block"
-					}
+					"class":"top",
+					"html":"Next slide will appear in 5 seconds.<br> For other slides, use arrow keys."
 				},
 				{
-					"type":"p",
-					"html":"Next slide will appear in 5 seconds.<br> For other slides, use arrow keys."
+					"class":"title center",
+					"html": "Welcome"
 				}
 			]
 			
@@ -104,14 +98,9 @@
 				{
 					"type":"iframe",
 					"url":"https://www.youtube.com/embed/B9LjZgE1ed8",
-					"display": "inline-block",
-					"height": "50%",
-					"width": "50%",
-					"top": "50%",
-					"left": "50%",
+					"class":"center",
 					"style":{
-						"border":"none",
-						"transform":"translate(-50%,-50%)"
+						"border":"none"
 					}
 				}
 			]
